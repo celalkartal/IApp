@@ -1,8 +1,7 @@
 
 # Fonksiyon tanımlanması
-def say_hello(name):
-    print("Hi", name, end="!")
+def say_hello(name, surname):
+    print("Hi", name, surname, end="!\n")
 
 
-
-say_hello("celal")
+say_hello("celal","Kartal")
